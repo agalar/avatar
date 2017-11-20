@@ -1759,6 +1759,28 @@ html, body {
   stroke-width: 27.75%;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .rating__info .ct-series-a {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+  .rating-score .ct-series-a {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+@supports (-ms-accelerator: true) {
+  .rating__info .ct-series-a {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+  .rating-score .ct-series-a {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
+}
+
 @-webkit-keyframes draw {
   to {
     stroke-dashoffset: 0;
