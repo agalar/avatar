@@ -1351,6 +1351,9 @@ html, body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: auto;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .avatar__buttons .button {
